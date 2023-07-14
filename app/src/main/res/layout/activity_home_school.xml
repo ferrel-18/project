@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homesch"
+    tools:context=".HomeSchoolActivity">
+
+    <TextView
+        android:id="@+id/tv_order"
+        android:layout_width="337dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:gravity="center"
+        android:text="SCHOOL OF SCHOOLS"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.635"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <TextView
+        android:id="@+id/tv_orderdetails"
+        android:layout_width="337dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:gravity="center"
+        android:text=" HomeSchool Tutors"
+        android:textColor="#FF9800"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137" />
+
+    <TextView
+        android:id="@+id/tv_hs1"
+        android:layout_width="397dp"
+        android:layout_height="70dp"
+        android:background="#30ffffff"
+        android:text="Favel Ferrell:  Age:25 years
+          Experience:7 years  Cost=5500/="
+        android:textColor="#03A9F4"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.243" />
+
+    <TextView
+        android:id="@+id/tv_hs2"
+        android:layout_width="397dp"
+        android:layout_height="70dp"
+        android:background="#30ffffff"
+        android:text="Nicole Necesly:  Age:32 years
+          Experience:8 years  Cost=5500/="
+        android:textColor="#03A9F4"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.364" />
+
+    <TextView
+        android:id="@+id/tv_hs5"
+        android:layout_width="397dp"
+        android:layout_height="70dp"
+        android:background="#30ffffff"
+        android:text="Anwar Mohamud:  Age:35 years
+          Experience:12 years  Cost=6000/="
+        android:textColor="#03A9F4"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.755" />
+
+    <TextView
+        android:id="@+id/tv_hs4"
+        android:layout_width="397dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#30ffffff"
+        android:text="Helen Nthambi:  Age:43 years
+          Experience:15 years  Cost=8000/="
+        android:textColor="#03A9F4"
+        android:textSize="27sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.621" />
+
+    <TextView
+        android:id="@+id/tv_hs3"
+        android:layout_width="397dp"
+        android:layout_height="70dp"
+        android:background="#30ffffff"
+        android:text="lenny Chokwe:  Age:20 years
+          Experience:3 yeras  Cost=4500/="
+        android:textColor="#03A9F4"
+        android:textSize="27sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="384dp"
+        android:layout_height="58dp"
+        android:gravity="center_horizontal"
+        android:text="Note: Click on a tutor for booking an appointment"
+        android:textColor="#6A0C05"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.918" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="384dp"
+        android:layout_height="58dp"
+        android:gravity="center_horizontal"
+        android:text="Note: Payment is done per week"
+        android:textColor="#79158A"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.869" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonDDBack"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.69"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

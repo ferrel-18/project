@@ -10,7 +10,6 @@ import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : AppCompatActivity() {
-    GoogleSignInOptions gsop
 
 
 
@@ -40,7 +39,10 @@ class MainActivity : AppCompatActivity() {
         auth= FirebaseAuth.getInstance()
         Txt_forgotpassword=findViewById(R.id.txt_forgotpassword)
         Btn_login.setOnClickListener {
+            val login=Intent(this,HomeActivity::class.java)
+            startActivity(login)
             loginuser()
+
 
         }
 

@@ -7,6 +7,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
@@ -19,6 +20,7 @@ class SignUpActivity : AppCompatActivity() {
     lateinit var Btn_Signin:Button
     lateinit var Txt_gotologin:TextView
     lateinit var auth:FirebaseAuth
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,6 +38,10 @@ class SignUpActivity : AppCompatActivity() {
         }
         Btn_Signin.setOnClickListener {
             signinuser()
+            val signin=Intent(this,QuizActivity::class.java)
+            startActivity(signin)
+            finish()
+
 
         }
 

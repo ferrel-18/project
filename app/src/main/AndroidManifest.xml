@@ -1,20 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
     xmlns:tools="http://schemas.android.com/tools">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
 
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/myschool"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/myschool"
         android:supportsRtl="true"
         android:theme="@style/Theme.SchoolProject"
         tools:targetApi="31">
         <activity
+            android:name=".BSArtActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LawInterelatedActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Pharmacy_ScienceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LibraryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeSchoolActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuyMedicineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MedicineOrderDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RentBooksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OrderDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArticleFiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArticleFourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArticleThreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArticleTwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArticleOneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".About_usActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".BookAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudyArticlesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FindTutorActivity"
+            android:exported="false" />
+        <activity
             android:name=".QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
             android:exported="false" />
         <activity
             android:name=".SignUpActivity"
